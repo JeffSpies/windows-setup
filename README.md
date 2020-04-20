@@ -37,3 +37,7 @@ Windows isn't so bad. I'm maintaining my Mac/Unix keys as much as possible. I'll
 1. This makes WSL use Windows' Docker. You just insalled Docker, so ignore the first section, then follow the other steps, including properly setting the path and metadata in wsl.conf.
 
     https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly
+
+1. I'd run the following line in a WSL terminal:
+
+    git config --global core.autocrlf true
