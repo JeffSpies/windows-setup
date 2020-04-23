@@ -24,7 +24,7 @@ Windows isn't so bad. I'm maintaining my Mac/Unix keys as much as possible. I'll
 
     https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
-1. In the Microsoft Store, install the free WSL Ubuntu 18.04 LTS (or your preferred flavor/version). The following steps assume you're using Ubuntu.
+1. In the Microsoft Store, install the free WSL [Ubuntu 18.04 LTS](https://www.microsoft.com/store/apps/9N9TNGVNDL3Q) (or your preferred flavor/version). The following steps assume you're using Ubuntu.
 
 1. Install Docker for Windows:
 
