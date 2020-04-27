@@ -41,3 +41,7 @@ Windows isn't so bad. I'm maintaining my Mac/Unix keys as much as possible. I'll
 1. I'd run the following line in a WSL terminal:
 
     git config --global core.autocrlf true
+
+## Node
+
+In WSL, follow the instructions [here](https://github.com/nvm-sh/nvm) to install node via the nvm package manager.
