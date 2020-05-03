@@ -41,6 +41,8 @@ Windows isn't so bad. I'm maintaining my Mac/Unix keys as much as possible. I'll
 1. I'd run the following line in a WSL terminal:
 
     git config --global core.autocrlf true
+    
+1. WSL 1 has a known issue when using Visual Code. Change `remote.WSL.fileWatcher.polling` to true (or in the GUI, check the box)
 
 ## Node
 
