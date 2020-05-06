@@ -6,17 +6,17 @@ Windows isn't so bad. I'm maintaining my Mac/Unix keys as much as possible. I'll
 - [Source Tree](https://www.sourcetreeapp.com/)
 - Docker
 ### Communications
-- [Discord](https://discord.com/) My preferred chat app
-- [Telegram](https://telegram.org/) My preferred messaging app
+- [Discord](https://discord.com/) - My preferred chat app
+- [Telegram](https://telegram.org/) - My preferred messaging app
 ### Config
 - AutoHotKey
 - SharpKeys
 ### Backup
 - Backblaze
 ### Tools
-- ShareX
+- [ShareX](https://getsharex.com/) - Better screenshots; free and [open source](https://github.com/ShareX/ShareX)
 ### Media
-- [VLC](https://www.videolan.org/)
+- [VLC](https://www.videolan.org/) - Free, (open source)[https://code.videolan.org/explore/projects/starred] media player
 
 ## Key Mapping Configs
 
