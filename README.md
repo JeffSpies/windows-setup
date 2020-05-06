@@ -2,9 +2,9 @@ Windows isn't so bad. I'm maintaining my Mac/Unix keys as much as possible. I'll
 
 ## Software
 ### Coding
-- Visual Studio Code
+- [Visual Studio Code](https://code.visualstudio.com/)
 - [Source Tree](https://www.sourcetreeapp.com/)
-- Docker
+- [Docker](https://www.docker.com/products/docker-desktop)
 ### Communications
 - [Discord](https://discord.com/) - My preferred chat app
 - [Telegram](https://telegram.org/) - My preferred messaging app
@@ -12,7 +12,7 @@ Windows isn't so bad. I'm maintaining my Mac/Unix keys as much as possible. I'll
 - AutoHotKey
 - SharpKeys
 ### Backup
-- Backblaze
+- [Backblaze](https://secure.backblaze.com/r/01qxpi) - My preferred external backup service
 ### Tools
 - [ShareX](https://getsharex.com/) - Better screenshots; free and [open source](https://github.com/ShareX/ShareX)
 ### Media
