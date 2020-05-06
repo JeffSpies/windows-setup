@@ -16,7 +16,7 @@ Windows isn't so bad. I'm maintaining my Mac/Unix keys as much as possible. I'll
 ### Tools
 - [ShareX](https://getsharex.com/) - Better screenshots; free and [open source](https://github.com/ShareX/ShareX)
 ### Media
-- [VLC](https://www.videolan.org/) - Free, (open source)[https://code.videolan.org/explore/projects/starred] media player
+- [VLC](https://www.videolan.org/) - Free, [open source](https://code.videolan.org/explore/projects/starred) media player
 
 ## Key Mapping Configs
 
