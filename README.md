@@ -1,16 +1,22 @@
 Windows isn't so bad. I'm maintaining my Mac/Unix keys as much as possible. I'll provide my config/tools here.
 
 ## Software
-
+### Coding
 - Visual Studio Code
-- Source Tree
-- Discord
-- Telegram
+- [Source Tree](https://www.sourcetreeapp.com/)
 - Docker
+### Communications
+- [Discord](https://discord.com/) My preferred chat app
+- [Telegram](https://telegram.org/) My preferred messaging app
+### Config
 - AutoHotKey
 - SharpKeys
+### Backup
 - Backblaze
+### Tools
 - ShareX
+### Media
+- [VLC](https://www.videolan.org/)
 
 ## Key Mapping Configs
 
