@@ -52,4 +52,4 @@ Windows isn't so bad. I'm maintaining my Mac/Unix keys as much as possible. I'll
 
 ## Node
 
-In WSL, follow the instructions [here](https://github.com/nvm-sh/nvm) to install node via the nvm package manager.
+In WSL, follow the instructions [here](https://github.com/nvm-sh/nvm) to install node via the nvm package manager. In Windows, install [this](https://github.com/coreybutler/nvm-windows).
