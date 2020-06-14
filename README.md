@@ -50,6 +50,11 @@ Windows isn't so bad. I'm maintaining my Mac/Unix keys as much as possible. I'll
     
 1. WSL 1 has a known issue when using Visual Code. Change `remote.WSL.fileWatcher.polling` to true (or in the GUI, check the box)
 
+### tmux
+- https://github.com/tmux-plugins/tmux-resurrect
+- https://github.com/tmux-plugins/tmux-continuum
+- https://github.com/tmux-plugins/tmux-yank
+
 ## Node
 
 In WSL, follow the instructions [here](https://github.com/nvm-sh/nvm) to install node via the nvm package manager. In Windows, install [this](https://github.com/coreybutler/nvm-windows).
