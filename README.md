@@ -58,3 +58,20 @@ Windows isn't so bad. I'm maintaining my Mac/Unix keys as much as possible. I'll
 ## Node
 
 In WSL, follow the instructions [here](https://github.com/nvm-sh/nvm) to install node via the nvm package manager. In Windows, install [this](https://github.com/coreybutler/nvm-windows).
+
+## Python
+
+Using the Linux guides
+
+- https://github.com/pyenv/pyenv
+- https://github.com/pyenv/pyenv-virtualenv
+- `pyenv global 3.8.3` (or whatever is your latest by `pyenv install --list`)
+
+## Jupyter Lab/Notebook with Typescript & JavaScript support
+- `pyenv virtualenv jupyter`
+- `pyenv activate jupyter`
+- https://jupyter.org/install.html
+- `cd $WHEREVER_YOU_WANT_NOTEBOOKS_STORED`
+- `yarn init`
+- `yarn add lodash` or whatever packages you want
+- `jupyter lab`
