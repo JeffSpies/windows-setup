@@ -51,13 +51,24 @@ Windows isn't so bad. I'm maintaining my Mac/Unix keys as much as possible. I'll
 1. WSL 1 has a known issue when using Visual Code. Change `remote.WSL.fileWatcher.polling` to true (or in the GUI, check the box)
 
 ### tmux
+- I've [replaced VS-Code terminals](https://medium.com/@joaomoreno/persistent-terminal-sessions-in-vs-code-8fc469ed6b41) with tmux by using a comment on that post; added the following to your settings.json:
+````json
+"terminal.integrated.shell.linux": "bash",
+"terminal.integrated.shellArgs.linux": ["-c", "SESSION=${PWD#${PWD%/*/*}/}; tmux new-window -t $SESSION; tmux new-session -A -D -s $SESSION"]
+````
 - https://github.com/tmux-plugins/tmux-resurrect
 - https://github.com/tmux-plugins/tmux-continuum
 - https://github.com/tmux-plugins/tmux-yank
 
 ## Node
 
-In WSL, follow the instructions [here](https://github.com/nvm-sh/nvm) to install node via the nvm package manager. In Windows, install [this](https://github.com/coreybutler/nvm-windows).
+In WSL, follow the instructions [here](https://github.com/nvm-sh/nvm) to install node via the nvm package manager.
+````bash
+nvm install node 
+nvm use node
+nvm install-latest-npm
+npm -g install yarn
+````
 
 ## Python
 
