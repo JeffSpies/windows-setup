@@ -1,28 +1,6 @@
-Windows isn't so bad. I'm maintaining my Mac/Unix keys as much as possible. I'll provide my config/tools here.
+Windows isn't so bad; hardware is a ton cheaper than Apple, you don't have to deal with the terrible Macbook* keyboards/heating isssues, there's no tinkering/worrying with drivers, and now you get full Docker and Linux within Windows to boot. However, I'm maintaining my Mac/Unix keys as much as possible. My setup is below.
 
-## Software
-### Coding
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Source Tree](https://www.sourcetreeapp.com/)
-- [Docker](https://www.docker.com/products/docker-desktop)
-### Communications
-- [Discord](https://discord.com/) - My preferred chat app
-- [Telegram](https://telegram.org/) - My preferred messaging app
-### Config
-- AutoHotKey
-- SharpKeys
-### Backup
-- [Backblaze](https://secure.backblaze.com/r/01qxpi) - My preferred external backup service
-### Tools
-- [ShareX](https://getsharex.com/) - Better screenshots; free and [open source](https://github.com/ShareX/ShareX)
-### Media
-- [VLC](https://www.videolan.org/) - Free, [open source](https://code.videolan.org/explore/projects/starred) media player
-
-## Key Mapping Configs
-
-1. TODO
-
-## Linux
+## Linux via WSL2
 
 1. Get Windows 10 Pro--you can find cheap, legal keys on auction and other key distribution sites. This way you can run Docker for Windows as Docker running is WSL is near-impossible; don't go down that path until it's officially supported in WSL.
 
@@ -86,3 +64,33 @@ Using the Linux guides
 - `yarn init`
 - `yarn add lodash` or whatever packages you want
 - `jupyter lab`
+
+## Windows Software
+### Coding
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Source Tree](https://www.sourcetreeapp.com/)
+- [Docker](https://www.docker.com/products/docker-desktop)
+### Powershell
+- [Chocolatey](https://chocolatey.org/)
+    - `choco install git`
+    - `choco install putty`
+        - `puttygen.exe`: Generate, move mouse, save keys to `%USERPROFILE%\_ssh` (e.g., github.ppk) and export OpenSSH format to %USERPROFILE%\.ssh\id_rsa
+### Communications
+- [Discord](https://discord.com/) - My preferred chat app
+- [Telegram](https://telegram.org/) - My preferred messaging app
+### Config
+- AutoHotKey
+- SharpKeys
+### Backup
+- [Backblaze](https://secure.backblaze.com/r/01qxpi) - My preferred external backup service
+### Tools
+- [ShareX](https://getsharex.com/) - Better screenshots; free and [open source](https://github.com/ShareX/ShareX)
+### Media
+- [VLC](https://www.videolan.org/) - Free, [open source](https://code.videolan.org/explore/projects/starred) media player
+
+
+## Key Mapping Configs
+
+1. TODO
+
+
