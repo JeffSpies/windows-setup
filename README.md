@@ -70,6 +70,19 @@ Using the Linux guides
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Source Tree](https://www.sourcetreeapp.com/)
 - [Docker](https://www.docker.com/products/docker-desktop)
+### Config
+- AutoHotKey
+- SharpKeys
+### Backup
+- [Backblaze](https://secure.backblaze.com/r/01qxpi) - My preferred external backup service
+### Tools
+- [Keypirinha](http://keypirinha.com/) - An [openly extensible](https://github.com/Keypirinha) launcher. I think I like it better than [Wox](http://www.wox.one/).
+- [ShareX](https://getsharex.com/) - Better screenshots; free and [open source](https://github.com/ShareX/ShareX)
+- [Listary](https://www.listary.com/) - Very handy search utility integrated with Explorer.
+- [Everything](https://www.voidtools.com/) - Quick file indexing; nice integration with Keypirinha.
+- [Quicklook](https://pooi.moe/QuickLook/) - [Open source](https://github.com/QL-Win/QuickLook) clone of Mac's quick look. An alternative to [Seer](http://1218.io/). 
+### Media
+- [VLC](https://www.videolan.org/) - Free, [open source](https://code.videolan.org/explore/projects/starred) media player
 ### Powershell
 - [Chocolatey](https://chocolatey.org/)
     - `choco install git`
@@ -78,16 +91,6 @@ Using the Linux guides
 ### Communications
 - [Discord](https://discord.com/) - My preferred chat app
 - [Telegram](https://telegram.org/) - My preferred messaging app
-### Config
-- AutoHotKey
-- SharpKeys
-### Backup
-- [Backblaze](https://secure.backblaze.com/r/01qxpi) - My preferred external backup service
-### Tools
-- [ShareX](https://getsharex.com/) - Better screenshots; free and [open source](https://github.com/ShareX/ShareX)
-### Media
-- [VLC](https://www.videolan.org/) - Free, [open source](https://code.videolan.org/explore/projects/starred) media player
-
 
 ## Key Mapping Configs
 
