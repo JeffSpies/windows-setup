@@ -1,4 +1,4 @@
-Windows isn't so bad; hardware is a ton cheaper than Apple, you don't have to deal with the terrible Macbook* keyboards/heating isssues, there's no tinkering/worrying with drivers, and now you get full Docker and Linux within Windows to boot. However, I'm maintaining my Mac/Unix keys as much as possible. My setup is below.
+Windows isn't so bad; hardware is cheaper and more innovative than Apple, you don't have to deal with the terrible Macbook keyboards/heating isssues, there's no tinkering with drivers, and now you get (fast) Docker and Linux within Windows to boot. However, I'm maintaining my Mac/Unix keys as much as possible. My setup is below.
 
 ## Linux via WSL2
 
@@ -27,6 +27,17 @@ Windows isn't so bad; hardware is a ton cheaper than Apple, you don't have to de
     git config --global core.autocrlf true
     
 1. WSL 1 has a known issue when using Visual Code. Change `remote.WSL.fileWatcher.polling` to true (or in the GUI, check the box)
+
+### Update packages
+1. `sudo apt-get update`
+1. `suod apt-get upgrade`
+
+### git/GitHub
+
+1. `git config --global user.email code@example.com` # I use something generic across version-control sites
+1. `git config --global user.name "Your Name"`
+1. `ssh-keygen -t ed25519 -C "code@example.com"`
+1. Add your key to GitHub settings.
 
 ### tmux
 - I've [replaced VS-Code terminals](https://medium.com/@joaomoreno/persistent-terminal-sessions-in-vs-code-8fc469ed6b41) with tmux by using a comment on that post; added the following to your settings.json:
