@@ -2,6 +2,10 @@ Windows isn't so bad; hardware is cheaper and more innovative than Apple, you do
 
 ## Linux via WSL2
 
+The first thing we're going to do is install and configure Windows Subsystem for Linux. This puts the power of Linux besides Windows.
+
+### Install
+
 1. Get Windows 10 Pro--you can find cheap, legal keys on auction and other key distribution sites. This way you can run Docker for Windows as Docker running is WSL is near-impossible; don't go down that path until it's officially supported in WSL.
 
 1. Configure Windows 10 to run Windows Subsystem for Linux:
@@ -49,7 +53,7 @@ Windows isn't so bad; hardware is cheaper and more innovative than Apple, you do
 - https://github.com/tmux-plugins/tmux-continuum
 - https://github.com/tmux-plugins/tmux-yank
 
-## Node
+### Node
 
 In WSL, follow the instructions [here](https://github.com/nvm-sh/nvm) to install node via the nvm package manager.
 ````bash
@@ -59,7 +63,7 @@ nvm install-latest-npm
 npm -g install yarn
 ````
 
-## Python
+### Python
 
 Using the Linux guides
 
@@ -67,7 +71,7 @@ Using the Linux guides
 - https://github.com/pyenv/pyenv-virtualenv
 - `pyenv global 3.8.3` (or whatever is your latest by `pyenv install --list`)
 
-## Jupyter Lab/Notebook with Typescript & JavaScript support
+### Jupyter Lab/Notebook with Typescript & JavaScript support
 - `pyenv virtualenv jupyter`
 - `pyenv activate jupyter`
 - https://jupyter.org/install.html
@@ -77,34 +81,41 @@ Using the Linux guides
 - `jupyter lab`
 
 ## Windows Software
-### Coding
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Source Tree](https://www.sourcetreeapp.com/)
-- [Docker](https://www.docker.com/products/docker-desktop)
-### Config
-- AutoHotKey
-- SharpKeys
-### Backup
-- [Backblaze](https://secure.backblaze.com/r/01qxpi) - My preferred external backup service
+
+Now that WSL2 is installed
+
 ### Tools
-- [Keypirinha](http://keypirinha.com/) - An [openly extensible](https://github.com/Keypirinha) launcher. I think I like it better than [Wox](http://www.wox.one/).
-- [ShareX](https://getsharex.com/) - Better screenshots; free and [open source](https://github.com/ShareX/ShareX)
-- [Listary](https://www.listary.com/) - Very handy search utility integrated with Explorer.
-- [Everything](https://www.voidtools.com/) - Quick file indexing; nice integration with Keypirinha.
-- [Quicklook](https://pooi.moe/QuickLook/) - [Open source](https://github.com/QL-Win/QuickLook) clone of Mac's quick look. An alternative to [Seer](http://1218.io/). 
-### Media
-- [VLC](https://www.videolan.org/) - Free, [open source](https://code.videolan.org/explore/projects/starred) media player
-### Powershell
+I use Choclatey to install most things, making it easy to update across machines.
 - [Chocolatey](https://chocolatey.org/)
     - `choco install git`
     - `choco install putty`
         - `puttygen.exe`: Generate, move mouse, save keys to `%USERPROFILE%\_ssh` (e.g., github.ppk) and export OpenSSH format to %USERPROFILE%\.ssh\id_rsa
-### Communications
-- [Discord](https://discord.com/) - My preferred chat app
-- [Telegram](https://telegram.org/) - My preferred messaging app
-
+    - Chocolatey GUI
+    - Chocolatey Package List Backup to Local and Cloud
+    - SharpKeys
+    - Python
+    - Python 3.x
+    - Don't Sleep
+    - SearchWithMyBrowser
+    - EarTrumpet - Individual volume controls for every application
+    - [Quicklook](https://pooi.moe/QuickLook/) - [Open source](https://github.com/QL-Win/QuickLook) clone of Mac's quick look. An alternative to [Seer](http://1218.io/). 
+    - Discord - My preferred chat app
+    - Telegram - My preferred messaging app
+    - Zoom Client for Meetings
+    - [Keypirinha](http://keypirinha.com/) - An [openly extensible](https://github.com/Keypirinha) launcher. I think I like it better than [Wox](http://www.wox.one/).
+    - [ShareX](https://getsharex.com/) - Better screenshots; free and [open source](https://github.com/ShareX/ShareX)
+    - [Listary](https://www.listary.com/) - Very handy search utility integrated with Explorer.
+    - [Everything](https://www.voidtools.com/) - Quick file indexing; nice integration with Keypirinha.
+    - LockHunter
+    - PowerToys
+    - [VLC](https://www.videolan.org/) - Free, [open source](https://code.videolan.org/explore/projects/starred) media player
+    - I'll make my whole list available easily, but also 7-Zip, Acrobat, etc.
+### Backup
+- [Backblaze](https://secure.backblaze.com/r/01qxpi) - My preferred external backup service
+- pip3 install icloudpd
+  - icloud --username=icloud@email.address
+  - icloudpd.exe --username icloud@email.address -d C:\BackupFolderPath\ --until-found 200
 ## Key Mapping Configs
-
 1. TODO
 
 
