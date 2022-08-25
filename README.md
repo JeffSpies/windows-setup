@@ -107,9 +107,10 @@ I use Choclatey to install most things, making it easy to update across machines
     - [Listary](https://www.listary.com/) - Very handy search utility integrated with Explorer.
     - [Everything](https://www.voidtools.com/) - Quick file indexing; nice integration with Keypirinha.
     - LockHunter
-    - PowerToys
     - [VLC](https://www.videolan.org/) - Free, [open source](https://code.videolan.org/explore/projects/starred) media player
     - I'll make my whole list available easily, but also 7-Zip, Acrobat, etc.
+### Winget
+    - winget install --id=Microsoft.Poweroys -e
 ### Backup
 - [Backblaze](https://secure.backblaze.com/r/01qxpi) - My preferred external backup service
 - pip3 install icloudpd
