@@ -6,13 +6,7 @@ The first thing we're going to do is install and configure Windows Subsystem for
 
 ### Install
 
-1. Get Windows 10 Pro--you can find cheap, legal keys on auction and other key distribution sites. This way you can run Docker for Windows as Docker running is WSL is near-impossible; don't go down that path until it's officially supported in WSL.
-
-1. Configure Windows 10 to run Windows Subsystem for Linux:
-
-    https://docs.microsoft.com/en-us/windows/wsl/install-win10
-
-1. In the Microsoft Store, install the free WSL [Ubuntu 18.04 LTS](https://www.microsoft.com/store/apps/9N9TNGVNDL3Q) (or your preferred flavor/version). The following steps assume you're using Ubuntu.
+1. Get Windows 11.
 
 1. Install Docker for Windows:
 
@@ -92,23 +86,15 @@ I use Choclatey to install most things, making it easy to update across machines
         - `puttygen.exe`: Generate, move mouse, save keys to `%USERPROFILE%\_ssh` (e.g., github.ppk) and export OpenSSH format to %USERPROFILE%\.ssh\id_rsa
     - Chocolatey GUI
     - Chocolatey Package List Backup to Local and Cloud
-    - SharpKeys
-    - Python
     - Python 3.x
-    - Don't Sleep
     - SearchWithMyBrowser
     - EarTrumpet - Individual volume controls for every application
-    - [Quicklook](https://pooi.moe/QuickLook/) - [Open source](https://github.com/QL-Win/QuickLook) clone of Mac's quick look. An alternative to [Seer](http://1218.io/). 
     - Discord - My preferred chat app
     - Telegram - My preferred messaging app
     - Zoom Client for Meetings
-    - [Keypirinha](http://keypirinha.com/) - An [openly extensible](https://github.com/Keypirinha) launcher. I think I like it better than [Wox](http://www.wox.one/).
     - [ShareX](https://getsharex.com/) - Better screenshots; free and [open source](https://github.com/ShareX/ShareX)
-    - [Listary](https://www.listary.com/) - Very handy search utility integrated with Explorer.
-    - [Everything](https://www.voidtools.com/) - Quick file indexing; nice integration with Keypirinha.
     - LockHunter
     - [VLC](https://www.videolan.org/) - Free, [open source](https://code.videolan.org/explore/projects/starred) media player
-    - I'll make my whole list available easily, but also 7-Zip, Acrobat, etc.
 ### Winget
     winget install --id=Microsoft.Poweroys -e
     winget install --id=AdGuard.AdGuard -e 
