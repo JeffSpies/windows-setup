@@ -86,6 +86,7 @@ I use Choclatey to install most things, making it easy to update across machines
         - `puttygen.exe`: Generate, move mouse, save keys to `%USERPROFILE%\_ssh` (e.g., github.ppk) and export OpenSSH format to %USERPROFILE%\.ssh\id_rsa
     - Chocolatey GUI
     - Chocolatey Package List Backup to Local and Cloud
+    - Cmder
     - Python 3.x
     - SearchWithMyBrowser
     - EarTrumpet - Individual volume controls for every application
