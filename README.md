@@ -107,4 +107,5 @@ I use Choclatey to install most things, making it easy to update across machines
 ## Key Mapping Configs
 1. TODO
 
-
+## Other Settings
+1. Turn off sticky keys.
