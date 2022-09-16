@@ -78,12 +78,17 @@ Using the Linux guides
 
 Now that WSL2 is installed
 
-### Tools
-I use Choclatey to install most things, making it easy to update across machines.
-- [Chocolatey](https://chocolatey.org/)
-    - `choco install git`
-    - `choco install putty`
-        - `puttygen.exe`: Generate, move mouse, save keys to `%USERPROFILE%\_ssh` (e.g., github.ppk) and export OpenSSH format to %USERPROFILE%\.ssh\id_rsa
+### Chocolatey
+Install chocolately in an administrative cmd.exe:
+
+    @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+and then
+
+    choco install git
+    choco install putty
+    choco install 
+
     - Chocolatey GUI
     - Chocolatey Package List Backup to Local and Cloud
     - Cmder
@@ -96,7 +101,13 @@ I use Choclatey to install most things, making it easy to update across machines
     - [ShareX](https://getsharex.com/) - Better screenshots; free and [open source](https://github.com/ShareX/ShareX)
     - LockHunter
     - [VLC](https://www.videolan.org/) - Free, [open source](https://code.videolan.org/explore/projects/starred) media player
+
+afterwards
+     - `puttygen.exe`: Generate, move mouse, save keys to `%USERPROFILE%\_ssh` (e.g., github.ppk) and export OpenSSH format to %USERPROFILE%\.ssh\id_rsa
+
 ### Winget
+Some things work better or are only on winget. Otherwise choco is preferred.
+
     winget install --id=Microsoft.Poweroys -e
     winget install --id=AdGuard.AdGuard -e 
 ### Backup
