@@ -1,4 +1,63 @@
-Windows isn't so bad; hardware is cheaper and more innovative than Apple, you don't have to deal with the terrible Macbook keyboards/heating isssues, there's no tinkering with drivers, and now you get (fast) Docker and Linux within Windows to boot. However, I'm maintaining my Mac/Unix keys as much as possible. My setup is below.
+Windows 10 and 11 aren't so bad; hardware is cheaper and more innovative than Apple, you don't have to deal with the terrible Macbook keyboards/heating isssues, there's no tinkering with drivers, and now you get (fast) Docker, Linux, and Android within Windows. With that said, I'm maintaining my Mac/Unix keys as much as possible using Autohotkey (installed below and with the script included in this repository).
+
+## Windows Software
+
+Now that WSL2 is installed
+
+### Chocolatey
+Install chocolately in an administrative cmd.exe:
+
+    @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+and then
+
+    choco install GoogleChrome
+    choco install git
+    choco install docker-desktop
+    choco install make
+
+because we might need to use them while we wait on other stuff:
+
+    choco install adb
+    choco install autohotkey
+    choco install chocolateygui
+    choco install cmder
+    choco install discord
+    choco install eartrumpet
+    choco install foxitreader
+    choco install gimp
+    choco install lockhunter
+    choco install nvm
+    choco install peazip
+    choco install putty
+    choco install python 3
+    choco install rufus
+    choco install searchwithmybrowser
+    choco install telegram
+    choco install vlc
+    choco install vscode
+    choco install zoom
+
+afterwards
+     - `puttygen.exe`: Generate, move mouse, save keys to `%USERPROFILE%\_ssh` (e.g., github.ppk) and export OpenSSH format to %USERPROFILE%\.ssh\id_rsa
+
+### Winget
+Some things work better or are only on winget. Otherwise choco is preferred.
+
+    winget install --id=Microsoft.Poweroys -e
+    winget install --id=AdGuard.AdGuard -e 
+
+### Backup
+- [Backblaze](https://secure.backblaze.com/r/01qxpi) - My preferred external backup service
+- pip3 install icloudpd
+  - icloud --username=icloud@email.address
+  - icloudpd.exe --username icloud@email.address -d C:\BackupFolderPath\ --until-found 200
+
+### Key Mapping Configs
+1. TODO
+
+### Other Settings
+1. Turn off sticky keys.
 
 ## Linux via WSL2
 
@@ -73,50 +132,3 @@ Using the Linux guides
 - `yarn init`
 - `yarn add lodash` or whatever packages you want
 - `jupyter lab`
-
-## Windows Software
-
-Now that WSL2 is installed
-
-### Chocolatey
-Install chocolately in an administrative cmd.exe:
-
-    @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-
-and then
-
-    choco install git
-    choco install putty
-    choco install 
-
-    - Chocolatey GUI
-    - Chocolatey Package List Backup to Local and Cloud
-    - Cmder
-    - Python 3.x
-    - SearchWithMyBrowser
-    - EarTrumpet - Individual volume controls for every application
-    - Discord - My preferred chat app
-    - Telegram - My preferred messaging app
-    - Zoom Client for Meetings
-    - [ShareX](https://getsharex.com/) - Better screenshots; free and [open source](https://github.com/ShareX/ShareX)
-    - LockHunter
-    - [VLC](https://www.videolan.org/) - Free, [open source](https://code.videolan.org/explore/projects/starred) media player
-
-afterwards
-     - `puttygen.exe`: Generate, move mouse, save keys to `%USERPROFILE%\_ssh` (e.g., github.ppk) and export OpenSSH format to %USERPROFILE%\.ssh\id_rsa
-
-### Winget
-Some things work better or are only on winget. Otherwise choco is preferred.
-
-    winget install --id=Microsoft.Poweroys -e
-    winget install --id=AdGuard.AdGuard -e 
-### Backup
-- [Backblaze](https://secure.backblaze.com/r/01qxpi) - My preferred external backup service
-- pip3 install icloudpd
-  - icloud --username=icloud@email.address
-  - icloudpd.exe --username icloud@email.address -d C:\BackupFolderPath\ --until-found 200
-## Key Mapping Configs
-1. TODO
-
-## Other Settings
-1. Turn off sticky keys.
