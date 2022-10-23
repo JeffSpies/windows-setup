@@ -57,8 +57,9 @@ and some optional apps
     choco install r.studio
     choco install syncthing
     choco install telegram
+    choco install virtualbox
     choco install vlc
-
+    choco install wireshark
 
 afterwards
      - `puttygen.exe`: Generate, move mouse, save keys to `%USERPROFILE%\_ssh` (e.g., github.ppk) and export OpenSSH format to %USERPROFILE%\.ssh\id_rsa
