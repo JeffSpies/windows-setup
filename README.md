@@ -9,34 +9,56 @@ Install chocolately in an administrative cmd.exe:
 
     @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 
-and then
+and then some immediately important apps
 
+    choco install autohotkey
     choco install GoogleChrome
     choco install git
     choco install docker-desktop
-    choco install make
-
-because we might need to use them while we wait on other stuff:
-
+    
+and some command-line tools
+ 
     choco install adb
-    choco install autohotkey
+    choco install curl
+    choco install fzf
+    choco install gnuwin
+    choco install iperf3
+    choco install make
+    choco install nvm
+    choco install wget
+
+and then some windows stuff
+
+    choco install aerozoom
     choco install chocolateygui
     choco install cmder
-    choco install discord
     choco install eartrumpet
     choco install foxitreader
-    choco install gimp
+    choco install itunes
+    choco install listary
     choco install lockhunter
-    choco install nvm
     choco install peazip
-    choco install putty
-    choco install python 3
     choco install rufus
+    choco install screentogif
     choco install searchwithmybrowser
-    choco install telegram
-    choco install vlc
     choco install vscode
     choco install zoom
+
+and some optional apps
+
+    choco install audacity
+    choco install dbeaver
+    choco install discord
+    choco install gimp
+    choco install handbrake
+    choco install kindle
+    choco install plexmediaserver
+    choco install python3
+    choco install r.studio
+    choco install syncthing
+    choco install telegram
+    choco install vlc
+
 
 afterwards
      - `puttygen.exe`: Generate, move mouse, save keys to `%USERPROFILE%\_ssh` (e.g., github.ppk) and export OpenSSH format to %USERPROFILE%\.ssh\id_rsa
