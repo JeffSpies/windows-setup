@@ -2,8 +2,6 @@ Windows 10 and 11 aren't so bad; hardware is cheaper and more innovative than Ap
 
 ## Windows Software
 
-Now that WSL2 is installed
-
 ### Chocolatey
 Install chocolately in an administrative cmd.exe:
 
@@ -88,19 +86,10 @@ The first thing we're going to do is install and configure Windows Subsystem for
 
 ### Install
 
-1. Get Windows 11.
+### WSL2
 
-1. Install Docker for Windows:
-
-    https://hub.docker.com/editions/community/docker-ce-desktop-windows/
-
-1. Open Ubuntu from the Start Menu and install Docker:
-
-    https://docs.docker.com/engine/install/ubuntu/
-
-1. This makes WSL use Windows' Docker. You just insalled Docker, so ignore the first section, then follow the other steps, including properly setting the path and metadata in wsl.conf.
-
-    https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly
+     wsl --list --online
+     wsl --install -d Ubuntu-20.04
 
 1. I'd run the following line in a WSL terminal:
 
