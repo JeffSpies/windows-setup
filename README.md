@@ -9,55 +9,63 @@ Install chocolately in an administrative cmd.exe:
 
 and then some immediately important apps
 
-    choco install autohotkey
-    choco install GoogleChrome
-    choco install git
-    choco install docker-desktop
+    (
+    choco install autohotkey --yes
+    choco install GoogleChrome --yes
+    choco install git --yes
+    choco install docker-desktop --yes
+    )
     
 and some command-line tools
  
-    choco install adb
-    choco install curl
-    choco install fzf
-    choco install gnuwin
-    choco install iperf3
-    choco install make
-    choco install nvm
-    choco install wget
+    (
+    choco install adb --yes
+    choco install curl --yes
+    choco install fzf --yes
+    choco install gnuwin --yes
+    choco install iperf3 --yes
+    choco install make --yes
+    choco install nvm --yes
+    choco install wget --yes
+    )
 
 and then some windows stuff
 
-    choco install aerozoom
-    choco install chocolateygui
-    choco install cmder
-    choco install eartrumpet
-    choco install foxitreader
-    choco install itunes
-    choco install listary
-    choco install lockhunter
-    choco install peazip
-    choco install rufus
-    choco install screentogif
-    choco install searchwithmybrowser
-    choco install vscode
-    choco install zoom
+    (
+    choco install aerozoom --yes
+    choco install chocolateygui --yes
+    choco install cmder --yes
+    choco install eartrumpet --yes
+    choco install foxitreader --yes
+    choco install itunes --yes
+    choco install listary --yes
+    choco install lockhunter --yes
+    choco install peazip --yes
+    choco install rufus --yes
+    choco install screentogif --yes
+    choco install searchwithmybrowser --yes
+    choco install vscode --yes
+    choco install zoom --yes
+    )
 
 and some optional apps
 
-    choco install audacity
-    choco install dbeaver
-    choco install discord
-    choco install gimp
-    choco install handbrake
-    choco install kindle
-    choco install plexmediaserver
-    choco install python3
-    choco install r.studio
-    choco install syncthing
-    choco install telegram
-    choco install virtualbox
-    choco install vlc
-    choco install wireshark
+    (
+    choco install audacity --yes
+    choco install dbeaver --yes
+    choco install discord --yes
+    choco install gimp --yes
+    choco install handbrake --yes
+    choco install kindle --yes
+    choco install plexmediaserver --yes
+    choco install python3 --yes
+    choco install r.studio --yes
+    choco install syncthing --yes
+    choco install telegram --yes
+    choco install virtualbox --yes
+    choco install vlc --yes
+    choco install wireshark --yes
+    )
 
 afterwards
      - `puttygen.exe`: Generate, move mouse, save keys to `%USERPROFILE%\_ssh` (e.g., github.ppk) and export OpenSSH format to %USERPROFILE%\.ssh\id_rsa
