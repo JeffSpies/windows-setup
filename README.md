@@ -96,8 +96,10 @@ The first thing we're going to do is install and configure Windows Subsystem for
 
 ### WSL2
 
+     (
      wsl --list --online
      wsl --install -d Ubuntu-20.04
+     )
 
 1. I'd run the following line in a WSL terminal:
 
