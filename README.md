@@ -92,9 +92,7 @@ Some things work better or are only on winget. Otherwise choco is preferred.
 
 The first thing we're going to do is install and configure Windows Subsystem for Linux. This puts the power of Linux besides Windows.
 
-### Install
-
-### WSL2
+### Install a distro
 
      (
      wsl --list --online
