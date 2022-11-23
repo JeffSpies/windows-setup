@@ -67,8 +67,13 @@ and some optional apps
     choco install wireshark --yes
     )
 
-afterwards
-     - `puttygen.exe`: Generate, move mouse, save keys to `%USERPROFILE%\_ssh` (e.g., github.ppk) and export OpenSSH format to %USERPROFILE%\.ssh\id_rsa
+some node apps (making sure you're still in an admin console)
+
+     (
+     nvm install latest
+     nvm use latest
+     npm install -g fkill
+     )
 
 ### Winget
 Some things work better or are only on winget. Otherwise choco is preferred.
@@ -125,16 +130,6 @@ The first thing we're going to do is install and configure Windows Subsystem for
 - https://github.com/tmux-plugins/tmux-resurrect
 - https://github.com/tmux-plugins/tmux-continuum
 - https://github.com/tmux-plugins/tmux-yank
-
-### Node
-
-In WSL, follow the instructions [here](https://github.com/nvm-sh/nvm) to install node via the nvm package manager.
-````bash
-nvm install node 
-nvm use node
-nvm install-latest-npm
-npm -g install yarn
-````
 
 ### Python
 
