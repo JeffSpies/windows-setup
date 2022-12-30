@@ -46,6 +46,7 @@ and then some windows stuff
     choco install rufus --yes
     choco install screentogif --yes
     choco install searchwithmybrowser --yes
+    choco install soundswitch --yes
     choco install vscode --yes
     choco install zoom --yes
     )
