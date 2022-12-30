@@ -32,7 +32,9 @@ and some command-line tools
 and then some windows stuff
 
     (
+    choco install 7zip --yes
     choco install aerozoom --yes
+    choco install bleachbit --yes
     choco install chocolateygui --yes
     choco install cmder --yes
     choco install eartrumpet --yes
@@ -62,6 +64,7 @@ and some optional apps
     choco install r.studio --yes
     choco install syncthing --yes
     choco install telegram --yes
+    choco install veracrypt --yes
     choco install virtualbox --yes
     choco install vlc --yes
     choco install wireshark --yes
