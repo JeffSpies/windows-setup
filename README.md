@@ -14,7 +14,10 @@ and then some immediately important apps
     choco install GoogleChrome --yes
     choco install git --yes
     choco install docker-desktop --yes
+    choco install shutup10 --yes
     )
+    
+Run oosu10 (Shupup 10)right away. Then...
     
 and some command-line tools
  
